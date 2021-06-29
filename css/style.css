@@ -6,9 +6,8 @@
 
 body {
     font-family: Arial, sans-serif;  
-
     background-size: 100vw 100vh;
-    background-image: linear-gradient(to bottom, blue, white);
+    background-image: linear-gradient(to bottom,rgb(80, 79, 79), rgb(201, 200, 200));
 }
 
 .container {
@@ -16,4 +15,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
+}
+
+#contador {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    font-size: 3em;
+
 }
