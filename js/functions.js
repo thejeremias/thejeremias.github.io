@@ -6,8 +6,7 @@ contagemRegressiva = setInterval(function() {
     document.getElementById("contador").innerHTML = tempo + "s";
 
     if (tempo == 0) {
-        clearInterval(this);
-        document.location = "https://github.com/thejeremias/";  
+        document.location = "https://github.com/thejeremias/";
     } else {
         tempo = tempo -1;
     }
