@@ -11,4 +11,4 @@ contagemRegressiva = setInterval(function() {
         tempo = tempo -1;
     }
 
-}, 1000); 
+}, 1000);
